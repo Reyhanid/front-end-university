@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body{
+    max-width: 346px;
+    max-height: 700px;
+    background-image: linear-gradient(rgb(209, 196, 233),#a375cd);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.2rem 1rem;
+}
+.headerTimer{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #35056b;
+}
+.headerIcon{
+    width: 2rem;
+    height: 2rem;
+    color: #35056b;
+}
+.circleTimer{
+    width: 11.4rem;
+    height: 11.4rem;
+    border-radius: 100%;
+    background-color: #5818a5;
+    margin: 5rem auto;
+}
+.waveimage{
+    overflow: hidden;
+}
+.wavesin{
+    padding-bottom: 32px;
+    width: 340px;
+    height: 132px;
+    background-color:#35056b;
+}
+.FLags , .Stop{
+    display: flex;
+    align-items: center;
+    margin-top: -0.5rem;
+    position: relative;
+}
+.flag{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    border: 2px solid #601da48a;
+    align-items: center;
+}
+.flag1{
+    position: absolute;
+    left: 5rem;
+}
+.flag2{
+    position: absolute;
+    right: 5rem;
+}
+.flagicon2{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin:10px;
+}
+.flagicon1{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin:10px;
+}
+.Stop{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background-color: #5818a5;
+    position: absolute;
+    left: 8.5rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+.pause{
+    width: 2.2rem;
+    height: 2.3rem;
+    margin: 14px;
+}
+.TCAC{
+    background-color: #4a1187;
+    width: 16rem;
+    height: 3.3rem;
+    margin-top: 4rem;
+    margin-left: 2.3rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.Option{
+    color: #996ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.optionicon{
+    width: 1.3rem;
+    height: 1.4rem;
+}
+.crono{
+    background-color: #35056b;
+    padding: 3px;
+    border-radius: 1rem;
+}
